@@ -1,7 +1,7 @@
 class Openmha < Formula
   desc "Open Master Hearing Aid (openMHA)"
   homepage "http://www.openmha.org/"
-  url "https://github.com/tobiasherzke/openMHA", :using => :git, :tag => "v4.17.0.9"
+  url "https://github.com/tobiasherzke/openMHA", :using => :git, :tag => "v4.17.0.10"
   
   license "AGPL-3.0-only"
 
