@@ -17,7 +17,7 @@ class Openmha < Formula
   depends_on "labstreaminglayer/tap/lsl" => :build
 
   def install
-    system "./configure"
+    system "./configure", "--prefix=#{prefix}"
     system "make install"
   end
 
