@@ -15,6 +15,7 @@ class Openmha < Formula
   depends_on "liblo" => :build
   depends_on "eigen" => :build
   depends_on "labstreaminglayer/tap/lsl" => :build
+  depends_on "pytorch" => :build # Some plugins use libtorch.
 
   def install
     system "./configure", "--prefix=#{prefix}"
