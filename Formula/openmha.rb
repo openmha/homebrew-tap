@@ -1,5 +1,5 @@
 class Openmha < Formula
-  OPENMHA_TAG = "v4.18.0"
+  OPENMHA_TAG = "v4.18.1"
   desc "Open Master Hearing Aid (openMHA)"
   homepage "http://www.openmha.org/"
   url "https://github.com/Hoertech-gGmbH/openMHA", :using => :git, :tag => OPENMHA_TAG
